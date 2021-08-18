@@ -1,0 +1,21 @@
+
+<form onsubmit="return addMessage(this)" action="/api/productos/guardar" method="post">
+    <div class="container"></div>
+        <h1 class="text-center"> Lista de Productos</h1>
+
+    <div class="mb-3">
+        <div class="mb-3">
+            <label for="exampleInputEmail" class="form-label">Producto</label>
+            <input type="text" id="nombre" name="nombre" class="form.control" placeholder=""></input>
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputEmail" class="form-label">Precio</label>
+         <input type="text" id="price" name="price" class="form-control" placeholder=""></input>
+    </div>
+    <div class="mb-3">
+    <label for="thumbnail" class="form-label">Imagen</label>
+    <input type="text" id="thumbnail" name="thumbnail" class="form-label" placeholder=""></input>
+    </div>
+<button type="submit" class="btn btn-primary" >Guardar</button>
+</div>
+</form>
